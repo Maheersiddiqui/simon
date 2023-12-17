@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    height: 600px;
+    background-image: url(s4.jpg);
+    
+    background-size: cover;
+    
+}
+.navbar {
+    background-color: #333;
+  width:25%;
+}
+.navitems{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+.headdivs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#headertext{
+   margin-top: 200px;
+   margin-left: 50px;
+}
+
+#shopnow{
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    background: none;
+}
+.newarrival{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skincareitems{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.innerskincare{
+    height: 300px;
+    width: 200px;
+}
+.beauty{
+    background-color: rgba(255, 248, 220, 0.559);
+   display: flex;
+   justify-content: space-around;
+}
+.innerdiv{
+    padding: 30px;
+}
+.allskintypes{
+   display: flex;
+   justify-content: space-around;
+    margin: 20px;
+}
+.round{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:  rgba(255, 248, 220, 0.559);
+    margin-left: 30px;
+}
+.videodiv{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(OIP\ \(12\).jpg);
+    background-size: cover;
+}
+.mostloved{
+   margin: 20px;
+   text-align: center;
+}
+.loveditems{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:800px) {
+    .skincareitems{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .beauty{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .loveditems{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
